@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center" >
+
+
+    <Button
+        android:id="@+id/but31"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="GO1">
+    </Button>
+    <Button
+        android:id="@+id/but32"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="GO2">
+    </Button>
+    <Button
+        android:id="@+id/but34"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="GO4">
+    </Button>
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Back">
+    </Button>
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40dp">
+    </TextView>
+</LinearLayout>
